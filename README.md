@@ -5,6 +5,20 @@ This project is fork of project **maven-db-plugin** from googlecode
 
 https://maven-db-plugin.googlecode.com
 
+# Repository configuration
+```
+  <pluginRepositories>
+    <pluginRepository>
+      <id>db-maven-plugin-mvn-repo</id>
+      <url>https://raw.github.com/lbenda/db-maven-plugin/mvn-repo/</url>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </pluginRepository>
+  </pluginRepositories>
+```
+
 # Bring new fetchures
 1. The can read BOM in file so can determine encoding of script which is created by *SQL Managemant Studio*.
 2. Can deal with MS SQL GO to execute transaction.
@@ -48,7 +62,7 @@ this sample assumes the following:
   <build>
     <plugins>
       <plugin>
-        <groupId>com.googlecode</groupId>
+        <groupId>com.github.lbenda</groupId>
         <artifactId>db-maven-plugin</artifactId>
         <version>1.6-SNAPSHOT</version>
         <configuration>
