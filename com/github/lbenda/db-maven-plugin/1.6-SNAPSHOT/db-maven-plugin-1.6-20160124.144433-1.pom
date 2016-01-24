@@ -4,7 +4,7 @@
    | Basic project information
    +-->
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.googlecode</groupId>
+  <groupId>com.github.lbenda</groupId>
   <version>1.6-SNAPSHOT</version>
   <artifactId>db-maven-plugin</artifactId>
   <name>maven database plugin</name>

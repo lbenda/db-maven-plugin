@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>com.googlecode</groupId>
+  <groupId>com.github.lbenda</groupId>
   <artifactId>db-maven-plugin</artifactId>
   <version>1.6-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20160124.143750</timestamp>
+      <timestamp>20160124.144433</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20160124143750</lastUpdated>
+    <lastUpdated>20160124144433</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.6-20160124.143750-1</value>
-        <updated>20160124143750</updated>
+        <value>1.6-20160124.144433-1</value>
+        <updated>20160124144433</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.6-20160124.143750-1</value>
-        <updated>20160124143750</updated>
+        <value>1.6-20160124.144433-1</value>
+        <updated>20160124144433</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
